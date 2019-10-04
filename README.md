@@ -26,9 +26,8 @@ I used OpenCV’s implementation of Haar feature-based cascade object classifier
 Here I created a 4-layer CNN in Keras that classifies dog breeds, but the accuracy is about 12% which is a little better than random guessing. So, I leveraged the latest state of art techiniques like VGG, Inception V3, and ResNet to classify dogs. The Exception model outperforms all the other models with the accuracy of 86%. 
 
 ## Files
-bottleneck_features - A folder for pretrained models 
-
-extract_bottleneck_features.py - Some functions to process the pretrained models
+bottleneck_features - A folder for pretrained models. 
+extract_bottleneck_features.py - Some functions to process the pretrained models.
 
 haarcascades - A folder containing the filters we will use in the human face detector
 
