@@ -27,6 +27,7 @@ Here I created a 4-layer CNN in Keras that classifies dog breeds, but the accura
 
 ## Files
 bottleneck_features - A folder for pretrained models 
+
 extract_bottleneck_features.py - Some functions to process the pretrained models
 haarcascades - A folder containing the filters we will use in the human face detector
 images - A folder to place any images on which you would like to test the model
