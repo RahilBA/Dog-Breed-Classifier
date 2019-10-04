@@ -4,7 +4,7 @@ This work is part of Udacity’s Data Science capstone project.
 ## project overview
 The goal is to create a pipeline that detects dog images and classifies them according to their breed using CNN . This model can be used as part of a mobile or web app for real world and user provided images.Given an image to the model, it will return if an image includes dog and an estimation of breed. If the image is not a dog, it will return the resembling dog breed. You can read more about this work in my blog here.
 
-## contents:
+## contents of ipynb notebook:
 
     Intro
     Step 0: Import Datasets
@@ -12,8 +12,8 @@ The goal is to create a pipeline that detects dog images and classifies them acc
     Step 2: Detect Dog
     Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
     Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
-    Step 5: Write Your Algorithm
-    Step 6: Test Your Algorithm
+    Step 5: Write the Algorithm
+    Step 6: Test the Algorithm
 
 
 ## Data
@@ -38,3 +38,5 @@ dog_app.ipynb - A jupyter notebook in which the code can be found
 The state-of-art Covnet models I implemented are VGG19, InceptionV3, ResNet50 and Xception. For each one, I downloaded the pretrained weights, and freezed all the pre-trained layers. The first fine tuning approach I used was to change the last fully connected layer to the number of dog breeds. 
 The Exception and Resnet50 models outperforms all the other models with the accuracy of almost 86%.  
 In general, Xception slightly outperforms InceptionV3 and Resnet on ImageNet dataset, also it is more computationally efficient. 
+
+
