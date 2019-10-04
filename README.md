@@ -42,5 +42,7 @@ dog_app.ipynb - A jupyter notebook in which the code can be found.
 The state-of-art Covnet models I implemented are VGG19, InceptionV3, ResNet50 and Xception. For each one, I downloaded the pretrained weights, and freezed all the pre-trained layers. The first fine tuning approach I used was to change the last fully connected layer to the number of dog breeds. 
 The Exception and Resnet50 models outperforms all the other models with the accuracy of almost 86%.  
 In general, Xception slightly outperforms InceptionV3 and Resnet on ImageNet dataset, also it is more computationally efficient. 
+The followings are the classifier outputs:
+![](Model_result1.png)
 
 
