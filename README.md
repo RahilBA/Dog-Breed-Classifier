@@ -27,17 +27,18 @@ Here I created a 4-layer CNN in Keras that classifies dog breeds, but the accura
 
 ## Files
 bottleneck_features - A folder for pretrained models. 
+
 extract_bottleneck_features.py - Some functions to process the pretrained models.
 
-haarcascades - A folder containing the filters we will use in the human face detector
+haarcascades - A folder containing the filters we will use in the human face detector.
 
-images - A folder to place any images on which you would like to test the model
+images - A folder to place any images on which you would like to test the model.
 
-requirements - A folder containing the necessary dependencies
+requirements - A folder containing the necessary dependencies.
 
-saved_models - A folder in which to save any models you train
+saved_models - A folder in which to save any models you train.
 
-dog_app.ipynb - A jupyter notebook in which the code can be found
+dog_app.ipynb - A jupyter notebook in which the code can be found.
 
 ## Results 
 The state-of-art Covnet models I implemented are VGG19, InceptionV3, ResNet50 and Xception. For each one, I downloaded the pretrained weights, and freezed all the pre-trained layers. The first fine tuning approach I used was to change the last fully connected layer to the number of dog breeds. 
