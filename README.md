@@ -43,6 +43,8 @@ The state-of-art Covnet models I implemented are VGG19, InceptionV3, ResNet50 an
 The Exception and Resnet50 models outperforms all the other models with the accuracy of almost 86%.  
 In general, Xception slightly outperforms InceptionV3 and Resnet on ImageNet dataset, also it is more computationally efficient. 
 The followings are the classifier outputs:
-![](Model_result1.png)
+![](Images/Model_result_1.png)
+![](Images/Model_result_2.png)
+![](Images/Model_result_3.png)
 
 
