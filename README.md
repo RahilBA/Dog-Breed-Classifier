@@ -15,7 +15,7 @@ The goal is to create a pipeline that detects dog images and classifies them acc
 
 
 ## Data
-You can download the dog and human data sets here![C:\Users\rahil.bagheri\OneDrive - REI Systems Inc\Desktop\Dog-Breed-Classifier.zip]. 
+You can download the dog and human data sets [here](C:\Users\rahil.bagheri\OneDrive - REI Systems Inc\Desktop\Dog-Breed-Classifier.zip). 
 
 ## Dog and human detector
 I used OpenCV’s implementation of Haar feature-based cascade object classifier to detect human faces in images. But first the images have to be converted to grayscale before using the detector. This detector has a 11% false positive rate tested on 100 sample dog images. So, I used pretrained ResNet_50 weights in keras to detect dog from images. If the predicted class of RestNet50 on ImageNet falls into the dog breed categories dog detector performs well and if not we should use another keras models as dog detector. But, it performed well without false positive. 
