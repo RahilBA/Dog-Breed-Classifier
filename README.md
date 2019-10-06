@@ -15,7 +15,9 @@ The goal is to create a pipeline that detects dog images and classifies them acc
 
 
 ## Data
-You can download the dog data sets <a href="C:\Users\rahil.bagheri\OneDrive - REI Systems Inc\Desktop\Dog-Breed-Classifier" download="dogImages.zip">download this</a>
+You can download the dog data sets(C:\Users\rahil.bagheri\OneDrive - REI Systems Inc\Desktop\Dog-Breed-Classifier\dogImages.zip)
+
+<a href="C:\Users\rahil.bagheri\OneDrive - REI Systems Inc\Desktop\Dog-Breed-Classifier" download="dogImages.zip">download this</a>
 
 
 ## Dog and human detector
