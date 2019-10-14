@@ -16,6 +16,10 @@ The goal is to create a pipeline that detects dog images and classifies them acc
 
 ## Data
 You can download the dog and human data sets [here](https://github.com/udacity/dog-project)
+This data set has 8,351 total images with 133 different breeds. The number of available images for the model to learn from is about 62 per kind, which might not be enough for CNN. In this real-world setting, the images have different resolutions, sizes, lightening conditions, also some images have more than one dog. By comparing the pixel intensity distribution of the same labeled images, I noticed, for example, photos for American_staffordshire_terrier are varying in contrast, size, and brightness. The Red, Green, and Blue channels’ intensity values found in these two images are distributed differently. This variation in data makes the task of assigning breed to dogs even more challenging.
+
+### Metrics
+Since we are dealing with a multi-classification problem here and the data is slightly imbalanced, I used accuracy evaluation metric and categorical_crossentropy cost function. But, first, the labels have to be in a categorical format. The target files are the list of encoded dog labels related to the image with this format. This multi-class log loss punishes the classifier if the predicted probability leads to a different label than the actual and cause higher accuracy. A perfect classifier has a loss of zero and an accuracy of 100%.
 
 ## Dog and human detector
 I used OpenCV’s implementation of Haar feature-based cascade object classifier to detect human faces in images. But first the images have to be converted to grayscale before using the detector. This detector has a 11% false positive rate tested on 100 sample dog images. So, I used pretrained ResNet_50 weights in keras to detect dog from images. If the predicted class of RestNet50 on ImageNet falls into the dog breed categories dog detector performs well and if not we should use another keras models as dog detector. But, it performed well without false positive. 
