@@ -2,7 +2,7 @@
 This work is part of Udacity’s Data Science capstone project. 
 
 ## project overview
-The goal is to create a pipeline that detects dog images and classifies them according to their breed using CNN . This model can be used as part of a mobile or web app for real world and user provided images.Given an image to the model, it will return if an image includes dog and an estimation of breed. If the image is not a dog, it will return the resembling dog breed. You can read more about this work in my blog here.
+The goal is to create a pipeline that detects dog images and classifies them according to their breed using CNN . This model can be used as part of a mobile or web app for real world and user provided images.Given an image to the model, it will return if an image includes dog and an estimation of breed. If the image is not a dog, it will return the resembling dog breed. You can read more about this work in my blog [here](https://medium.com/@rahil.bagheri/deep-learning-build-a-dog-detector-and-breed-classifier-using-cnn-f6ea2e5d954a).
 
 ## contents of ipynb notebook:
     Step 0: Import Datasets
